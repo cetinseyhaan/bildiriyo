@@ -19,16 +19,19 @@ class Telegram:
         if self.dry_run:
             log.warning("TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID yok: mesajlar sadece ekrana yazılacak")
 
-    def send(self, text: str) -> bool:
+    def send(self, text: str, reply_markup: dict | None = None) -> bool:
         if self.dry_run:
             print("\n" + text + "\n" + "-" * 40)
             return True
+        payload = {"chat_id": self.chat_id, "text": text, "parse_mode": "HTML",
+                   "disable_web_page_preview": True}
+        if reply_markup:
+            payload["reply_markup"] = reply_markup
         for attempt in range(5):
             try:
                 r = requests.post(
                     f"https://api.telegram.org/bot{self.token}/sendMessage",
-                    json={"chat_id": self.chat_id, "text": text, "parse_mode": "HTML",
-                          "disable_web_page_preview": True},
+                    json=payload,
                     timeout=30,
                 )
             except requests.RequestException as e:
@@ -45,7 +48,7 @@ class Telegram:
             return False
         return False
 
-    def send_long(self, header: str, lines: list[str]) -> bool:
+    def send_long(self, header: str, lines: list[str], reply_markup: dict | None = None) -> bool:
         """Satırları 4096 sınırını aşmayacak şekilde birden çok mesaja böler."""
         ok, buf = True, header
         for line in lines:
@@ -53,8 +56,9 @@ class Telegram:
                 ok &= self.send(buf)
                 buf = header + " (devam)"
             buf += "\n" + line
-        return self.send(buf) and ok
+        return self.send(buf, reply_markup=reply_markup) and ok
 
 
 def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
+

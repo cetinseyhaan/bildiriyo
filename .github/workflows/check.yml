@@ -9,6 +9,7 @@ on:
     - cron: "41 16 * * *"
     - cron: "53 17 * * *"
     - cron: "13 19 * * *"
+    - cron: "*/5 * * * *" # Telegram'daki sorgu düğmesi için güncellemeleri yokla
   workflow_dispatch:         # Actions sekmesinden elle çalıştırmak için
     inputs:
       ozet:
@@ -30,25 +31,82 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Telegram sorgu düğmesini kontrol et
+        id: telegram_button
+        continue-on-error: true
+        if: ${{ github.event_name == 'schedule' && github.event.schedule == '*/5 * * * *' }}
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          updates="$(curl --silent --show-error --fail --get \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates" \
+            --data-urlencode "offset=-1" \
+            --data-urlencode "timeout=0" \
+            --data-urlencode 'allowed_updates=["callback_query"]')"
+          update="$(jq -c '.result[-1] // empty' <<< "$updates")"
+          if [[ -z "$update" ]]; then
+            exit 0
+          fi
+
+          update_id="$(jq -r '.update_id' <<< "$update")"
+          callback="$(jq -c '.callback_query // empty' <<< "$update")"
+          if [[ -n "$callback" ]]; then
+            callback_id="$(jq -r '.id' <<< "$callback")"
+            callback_data="$(jq -r '.data // ""' <<< "$callback")"
+            callback_chat="$(jq -r '.message.chat.id // "" | tostring' <<< "$callback")"
+            if [[ "$callback_data" == "query" && "$callback_chat" == "$TELEGRAM_CHAT_ID" ]]; then
+              echo "query_requested=true" >> "$GITHUB_OUTPUT"
+              curl --silent --show-error --fail --get \
+                "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/answerCallbackQuery" \
+                --data-urlencode "callback_query_id=${callback_id}" >/dev/null || true
+              curl --silent --show-error --fail --get \
+                "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+                --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+                --data-urlencode "text=🔄 İlan sorgusu başlatılıyor; sonuçlar birazdan gruba gönderilecek." >/dev/null || true
+            else
+              curl --silent --show-error --fail --get \
+                "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/answerCallbackQuery" \
+                --data-urlencode "callback_query_id=${callback_id}" \
+                --data-urlencode "text=Bu düğme yalnızca bağlı grupta kullanılabilir." >/dev/null || true
+            fi
+          fi
+
+          # Aynı düğme tıklaması bir sonraki beş dakikalık kontrolde tekrarlanmasın.
+          curl --silent --show-error --fail --get \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/getUpdates" \
+            --data-urlencode "offset=$((update_id + 1))" \
+            --data-urlencode "timeout=0" \
+            --data-urlencode 'allowed_updates=["callback_query"]' >/dev/null || true
+
       - uses: actions/setup-python@v5
+        if: ${{ github.event_name != 'schedule' || github.event.schedule != '*/5 * * * *' || steps.telegram_button.outputs.query_requested == 'true' }}
         with:
           python-version: "3.12"
           cache: pip
 
       - run: pip install -r requirements.txt
+        if: ${{ github.event_name != 'schedule' || github.event.schedule != '*/5 * * * *' || steps.telegram_button.outputs.query_requested == 'true' }}
 
       # Kurulamazsa tarama yine çalışır, sadece taranmış PDF'ler OCR'sız kalır.
       - name: OCR araçları (taranmış Resmî Gazete PDF'leri için)
+        if: ${{ github.event_name != 'schedule' || github.event.schedule != '*/5 * * * *' || steps.telegram_button.outputs.query_requested == 'true' }}
         continue-on-error: true
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils tesseract-ocr tesseract-ocr-tur > /dev/null
 
       - name: İlanları tara ve Telegram'a gönder
+        if: ${{ github.event_name != 'schedule' || github.event.schedule != '*/5 * * * *' || steps.telegram_button.outputs.query_requested == 'true' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m bildiriyo ${{ inputs.ozet && '--ozet' || '' }}
+        run: |
+          if [[ "${{ steps.telegram_button.outputs.query_requested }}" == "true" ]]; then
+            python -m bildiriyo --ozet --force
+          else
+            python -m bildiriyo ${{ inputs.ozet && '--ozet' || '' }}
+          fi
 
       - name: Görülen ilanları kaydet
         if: always()
@@ -73,3 +131,4 @@ jobs:
           curl -sS --retry 3 --fail-with-body "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
             --data-urlencode "text=❌ Bot çalışmadı, bu tarama yapılamadı. Hata kaydı: ${RUN_URL}"
+
