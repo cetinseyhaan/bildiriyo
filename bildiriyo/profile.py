@@ -5,7 +5,13 @@ Anahtar kelimeler Türkçe karakterlerden arındırılmış küçük harfle yaz�
 """
 
 # --- Profil -----------------------------------------------------------------
-BOLUM = "Yazılım Mühendisliği (lisans)"
+BOLUM = "Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans)"
+YAS = 32
+BOY_CM = 180
+KILO_KG = 100
+KPSS_LISANS_PUANI = 62  # KPSSP3
+KPSS_LISANS_YILI = None  # sınav yılı paylaşılmadı
+KPSS_ONLISANS_PUANI = None  # KPSSP93 puanı paylaşılmadı
 DENEYIM_YIL = 0  # belgelenebilir bilişim deneyimi; 3+ olunca bilişim personeli ilanları açılır
 ALES_VAR = False  # akademik kadrolar (arş. gör., öğr. gör.) ALES ister
 # YDS: yok ama sınava girecek → YDS isteyen ilanlar elenmez.
@@ -62,18 +68,17 @@ SKIP_CATEGORY = [
 ]
 
 # --- Bölüm uygunluğu (ilan metninde aranır) -----------------------------------
-# Biri geçerse "Yazılım Mühendisliği mezunu başvurabilir" sayılır.
+# Biri geçerse ilan metninde profildeki eğitim alanlarından biri kabul ediliyor.
 BOLUM_OK = [
-    r"yazilim muhendis",
-    r"bilgisayar muhendis",
-    r"bilgisayar bilimleri muhendis",
-    r"bilisim sistemleri muhendis",
-    # "mühendislik ve fen-edebiyat fakültelerinin bilgisayar, yazılım, ... bölümlerinden"
-    r"muhendislik(?: ve [a-z-]+)? fakultelerinin[^.]{0,250}?(?<![a-z])(?:bilgisayar|yazilim)(?:,| ve| bolum| muhendis)",
-    r"muhendislik fakultelerinin (?:herhangi|tum|butun)",
-    r"muhendislik fakultesi(?:nin|nden)? (?:herhangi|tum)",
+    r"kamu yonetimi",
+    r"siyaset bilimi ve kamu yonetimi",
+    r"is sagligi ve guvenligi",
+    r"isci sagligi ve is guvenligi",
+    # Kamu yönetimi ve İSG için ilanlarda kullanılan yaygın bölüm yazımları.
     r"(?:herhangi bir|her hangi bir|tum|butun) (?:\w+ ){0,4}(?<!on )(?:lisans|fakulte)",
+    r"(?:herhangi bir|her hangi bir|tum|butun) (?:\w+ ){0,4}on lisans",
     r"(?<!on )(?:lisans|fakulte)(?: \w+){0,6} (?:herhangi bir|her hangi bir) (?:bolum|program|dal)",
+    r"on lisans(?: \w+){0,6} (?:herhangi bir|her hangi bir) (?:bolum|program|dal)",
     # "en az dört yıllık lisans eğitimi veren yükseköğretim kurumlarından mezun olmak":
     # ardından bölüm listesi gelmiyorsa her bölüm kabul edilir.
     r"(?:dort|4)(?: \(dort\))? yillik (?:lisans )?(?:egitim(?:i)? veren )?(?:yuksekogretim kurumlarin(?:dan|in)"
@@ -92,12 +97,12 @@ BOLUM_MAYBE = [
 ]
 
 # Metinde açıkça bölüm/fakülte adı sayılıyorsa "tabloda/kılavuzda belirtilen" ifadesine
-# bakılmaz: liste metnin içindedir ve Yazılım Müh. orada yoksa ilan uygun değildir.
+# bakılmaz: liste metnin içindedir ve profildeki bölümler yoksa ilan uygun değildir.
 NAMED_LIST = (r"[a-z]+ (?:muhendisligi|ogretmenligi)"
               r"|(?:hukuk|iktisat|isletme|siyasal bilgiler|maliye|kamu yonetimi|ekonomi)(?:,| ve| veya)[^.]{0,80}(?:fakulte|bolum|program)")
 
 # İŞKUR işçi ilanları: sadece bu meslek alanları gönderilir (beden işçisi, bulaşıkçı vb. gönderilmez).
-ISKUR_MESLEK_OK = r"bilgisayar|yazilim|bilisim|programci|muhendis|veri |sistem|teknik destek|buro memuru|idari"
+ISKUR_MESLEK_OK = r"bilgisayar|yazilim|bilisim|programci|muhendis|veri |sistem|teknik destek|buro memuru|idari|kamu yonetimi|isg|is sagligi|is guvenligi"
 
 # İlan metninde bunlar geçiyorsa (ve bölüm uygunsa) yine de "kontrol edin" denir.
 CAUTION = [
@@ -114,5 +119,5 @@ ACADEMIC_BODY = ["ogretim uyesi", "ogretim elemani", "ogretim gorevlisi", "arast
 
 # Metin yoksa (Kariyer Kapısı) başlıktan uygun sayılanlar
 TITLE_OK = [
-    "yazilim muhendis", "bilgisayar muhendis", "kpss tercih", "merkezi yerlestirme", "tercih kilavuzu",
+    "kamu yonetimi", "is sagligi ve guvenligi", "kpss tercih", "merkezi yerlestirme", "tercih kilavuzu",
 ]
