@@ -45,7 +45,16 @@ def _kamu_ilanlari(s):
         if "ctlGridAcikIslerListeDetail" not in r.text:
             if "bulunamad" in r.text:
                 return []
-            raise SourceError("e-Şube arama sonucu beklenen biçimde değil")
+
+            title = soup.title.get_text(" ", strip=True) if soup.title else "(başlık yok)"
+            preview = " ".join(soup.get_text(" ", strip=True).split())[:300]
+
+            raise SourceError(
+                f"İŞKUR yanıtı beklenmeyen biçimde. "
+                f"HTTP={r.status_code}; "
+                f"Başlık={title[:120]!r}; "
+                f"Önizleme={preview!r}"
+            )
         m = re.search(r"Toplam Kayıt:\s*([\d.]+)", soup.get_text(" "))
         total = int(m.group(1).replace(".", "")) if m else None
         for a in soup.select("a.share-toggle[data-ilanno]"):
