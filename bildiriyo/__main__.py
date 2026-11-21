@@ -173,8 +173,12 @@ def summary(keys, s, st, tg, *, record_scan: bool = False) -> None:
     lines = [format_line(i, dec) if i else why for i, dec, why in rows]
     n_ok = sum(dec == OK for i, dec, _ in rows if i)
     sent = tg.send_long(f"📋 <b>Şu an açık ve başvurabileceğiniz ilanlar</b> "
-                        f"({n_ok} uygun 🟢, {len(rows) - n_ok} şartları kontrol edilmeli 🟡):", lines or ["(yok)"],
-                        reply_markup={"inline_keyboard": [[{"text": "🔎 İlanları sorgula", "callback_data": "query"}]]})
+                        f"({n_ok} uygun 🟢, {len(rows) - n_ok} şartları kontrol edilmeli 🟡):", lines or ["(yok)"])
+    if sent and not tg.send(
+        "Yeni ilanları yeniden taramak için aşağıdaki düğmeye basın.",
+        reply_markup={"inline_keyboard": [[{"text": "🔎 İlanları sorgula", "callback_data": "query"}]]},
+    ):
+        log.error("Telegram sorgu düğmesi gönderilemedi.")
     if sent:
         for key, i, _ in pending:
             st["seen"].setdefault(key, {})[i.id] = now()
