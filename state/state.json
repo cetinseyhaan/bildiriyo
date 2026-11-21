@@ -9508,8 +9508,8 @@
   },
   "iskur": {
    "alerted": true,
-   "error": "SourceError: e-Şube arama sonucu beklenen biçimde değil",
-   "fails": 1
+   "error": "SourceError: İŞKUR yanıtı beklenmeyen biçimde. HTTP=200; Başlık='Türkiye İş Kurumu - Açık İş İlanları'; Önizleme='Türkiye İş Kurumu - Açık İş İlanları × Sistemde teknik hata oluştu. Lütfen sistem görevlileri ile irtibata geçiniz. Hata No: 172099-20261121-133403-3383-913370 Tamam İŞKUR E-ŞUBE Anasayf",
+   "fails": 2
   },
   "kamuilan": {
    "alerted": false,
@@ -9528,7 +9528,7 @@
   }
  },
  "heartbeat": "2026-11-21",
- "last_scan": "2026-11-20T22:19:14+00:00",
+ "last_scan": "2026-11-21T10:34:06+00:00",
  "seen": {
   "ilangov": {
    "1973572": "2026-10-18T18:55:34+00:00",
