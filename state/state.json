@@ -11620,6 +11620,1653 @@
    "sent": false,
    "t": "ÖĞRETİM ÜYESİ ALIM İLANI",
    "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:06+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "artuk",
+    "mardi",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Mardin Artuklu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:06+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "artuk",
+    "gorev",
+    "mardi",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Mardin Artuklu Üniversitesi Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:06+00:00",
+   "dec": "check",
+   "k": "sozlesmeli personel",
+   "o": [
+    "adale",
+    "adli",
+    "bakan",
+    "kurum",
+    "tip"
+   ],
+   "sent": false,
+   "t": "Adalet Bakanlığı Adli Tıp Kurumu Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı uygun: “…nligi 2 buro personeli (isletme-iktisat-kamu yonetimi) istanbul merkez teskilati 5 lisans kps…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; boy-kilo tablosundaki koşulu kontrol edin; kilo veya boy-kilo koşulunu ilandan kontrol edin; KPSS puan sıralamasını ve taban puanı ilandan kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:07+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "cerra",
+    "istan",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:07+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "erbak",
+    "necme",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Necmettin Erbakan Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:07+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "cerra",
+    "elema",
+    "istan",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "İstanbul Üniversitesi Cerrahpaşa Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:07+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "arast",
+    "beyko",
+    "gorev",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Beykoz Üniversitesi Rektörlüğü Öğretim Üyesi/ Öğretim Görevlisi/ Araştırma Görevlisi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:07+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "hasan",
+    "kalyo",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Hasan Kalyoncu Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:08+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "barti",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Bartın Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:08+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "barti",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Bartın Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:08+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "balik",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Balıkesir Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:08+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "balik",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Balıkesir Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:08+00:00",
+   "dec": "check",
+   "k": "sozlesmeli personel",
+   "o": [
+    "barti",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Bartın Üniversitesi Rektörlüğü Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı uygun: “…mis olmak. - yuksekogretim kurumlarinin herhangi bir on lisans programindan mezun olmak. - 01 ocak 199…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; bu KPSS puan türü profilinizde kayıtlı değil"
+  },
+  {
+   "d": "2026-11-21T11:16:09+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "atatu",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Atatürk Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:09+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "abdul",
+    "elema",
+    "gul",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Abdullah Gül Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:09+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "abdul",
+    "gul",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Abdullah Gül Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:09+00:00",
+   "dec": "skip",
+   "k": "mufettis yardimci",
+   "o": [
+    "guven",
+    "kurum",
+    "mufet",
+    "sosya"
+   ],
+   "sent": false,
+   "t": "Sosyal Güvenlik Kurumu Başkanlığı Müfettiş Yardımcılığı Giriş Sınavı İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:10+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "istan",
+    "medip",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Medipol Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:10+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "alina",
+    "danis",
+    "hizme"
+   ],
+   "sent": false,
+   "t": "Danışmanlık hizmeti alınacak",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:10+00:00",
+   "dec": "check",
+   "k": "",
+   "o": [
+    "adayl",
+    "bakan",
+    "icisl",
+    "kayma"
+   ],
+   "sent": false,
+   "t": "İçişleri Bakanlığı Kaymakam Adaylığı Sınav İlanı",
+   "why": "bölüm şartı uygun: “…uluslararasi iliskiler, siyaset bilimi, kamu yonetimi, iktisat, isletme, maliye, finans, ekon…”; KPSS puan türü ve sıralama koşulunu kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:10+00:00",
+   "dec": "skip",
+   "k": "sozlesmeli personel",
+   "o": [
+    "beled",
+    "bolu"
+   ],
+   "sent": false,
+   "t": "Bolu İli Mudurnu Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:10+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilec",
+    "edeba",
+    "elema",
+    "ogret",
+    "seyh",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Bilecik Şeyh Edebali Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:11+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "imam",
+    "iptal",
+    "kahra",
+    "sutcu",
+    "unive"
+   ],
+   "sent": false,
+   "t": "İptal İlanı (Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğü)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:11+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "baybu",
+    "duzel",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Düzeltme İlanı (Bayburt Üniversitesi Rektörlüğü)",
+   "why": "düzeltme duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:11+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "atlas",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Atlas Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:11+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "atlas",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Atlas Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:11+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "beyke",
+    "istan",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Beykent Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:12+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "atatu",
+    "duzel",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Atatürk Üniversitesi (Düzeltme İlanı)",
+   "why": "düzeltme duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:12+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "baybu",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Bayburt Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:12+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "baybu",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Bayburt Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:12+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "akif",
+    "ersoy",
+    "mehme",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Mehmet Akif Ersoy Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:12+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilec",
+    "edeba",
+    "ogret",
+    "seyh",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Bilecik Şeyh Edebali Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:13+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "alpar",
+    "iptal",
+    "mus",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Muş Alparslan Üniversitesi Rektörlüğünden İptal İlanı",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:13+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bakan",
+    "duzel",
+    "hazin",
+    "kontr",
+    "kurul",
+    "maliy"
+   ],
+   "sent": false,
+   "t": "Hazine ve Maliye Bakanlığı Hazine Kontrolörleri Kurulu Başkanlığı (Düzeltme İlanı)",
+   "why": "düzeltme duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:13+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "demir",
+    "ogret",
+    "suley",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Süleyman Demirel Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:13+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "erdog",
+    "ogret",
+    "recep",
+    "tayyi",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Recep Tayyip Erdoğan Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:13+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "gebze",
+    "ogret",
+    "tekni",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Gebze Teknik Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:14+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilim",
+    "gazia",
+    "islam",
+    "ogret",
+    "tekno",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Gaziantep İslam Bilim ve Teknoloji Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:14+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilim",
+    "duzel",
+    "iptal",
+    "sagli",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Sağlık Bilimleri Üniversitesi İptal ve Düzeltme İlanı",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:14+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "fener",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Fenerbahçe Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:14+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "fener",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Fenerbahçe Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:14+00:00",
+   "dec": "skip",
+   "k": "surekli isci",
+   "o": [
+    "akden",
+    "surek",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Akdeniz Üniversitesi Sürekli İşçi Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:15+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "galat",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Galata Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:15+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "galat",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Galata Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:15+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "erzur",
+    "ogret",
+    "tekni",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Erzurum Teknik Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:15+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "birun",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Biruni Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:16+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "atatu",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Atatürk Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:16+00:00",
+   "dec": "skip",
+   "k": "sozlesmeli personel",
+   "o": [
+    "anado",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Anadolu Üniversitesi Rektörlüğü Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:16+00:00",
+   "dec": "check",
+   "k": "uzman yardimci",
+   "o": [
+    "acil",
+    "afet",
+    "durum",
+    "yonet"
+   ],
+   "sent": false,
+   "t": "Afet ve Acil Durum Yönetimi Başkanlığı Uzman Yardımcısı Giriş Sınavı İlanı",
+   "why": "bölüm şartı uygun: “…nci dil sinav puani 1 iktisat, isletme, kamu yonetimi, siyaset bilimi ve kamu yonetimi, siyas…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; KPSS puan türü ve sıralama koşulunu kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:17+00:00",
+   "dec": "skip",
+   "k": "memur",
+   "o": [
+    "devle",
+    "edile",
+    "istih"
+   ],
+   "sent": false,
+   "t": "10 Devlet Memuru İstihdam Edilecek",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:17+00:00",
+   "dec": "check",
+   "k": "uzman yardimci",
+   "o": [
+    "kalit",
+    "kurul",
+    "yukse"
+   ],
+   "sent": false,
+   "t": "Yükseköğretim Kalite Kurulu Başkanlığı Uzman Yardımcısı Alım İlanı",
+   "why": "bölüm şartı uygun: “…p31-p32-p33 yuksekogretim kurumlarinin, kamu yonetimi ile siyaset bilimi ve kamu yonetimi lis…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; KPSS puan sıralamasını ve taban puanı ilandan kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:17+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "hazin",
+    "kontr",
+    "stajy"
+   ],
+   "sent": false,
+   "t": "Stajyer Hazine Kontrolörlüğü Giriş Sınavı İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:17+00:00",
+   "dec": "skip",
+   "k": "sozlesmeli personel",
+   "o": [
+    "bursa",
+    "tekni",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Bursa Teknik Üniversitesi Rektörlüğü Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:17+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "karam",
+    "mehme",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:18+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "istan",
+    "ogret",
+    "okan",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Okan Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:18+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "ogret",
+    "unive",
+    "uskud"
+   ],
+   "sent": false,
+   "t": "Üsküdar Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:18+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "canki",
+    "karat",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Çankırı Karatekin Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:18+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "birun",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Biruni Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:18+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "birun",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Biruni Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:19+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "celeb",
+    "duzel",
+    "iptal",
+    "izmir",
+    "katip",
+    "unive"
+   ],
+   "sent": false,
+   "t": "İzmir Katip Çelebi Üniversitesi (Düzeltme ve İptal İlanı)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:19+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "dogus",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Doğuş Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:19+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "dogus",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Doğuş Üniversitesi Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:19+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ogret",
+    "pamuk",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Pamukkale Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:20+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "aciba",
+    "ali",
+    "aydin",
+    "elema",
+    "mehme",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:20+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "aciba",
+    "ali",
+    "aydin",
+    "mehme",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Acıbadem Mehmet Ali Aydınlar Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:20+00:00",
+   "dec": "skip",
+   "k": "sozlesmeli personel",
+   "o": [
+    "cumhu",
+    "sanay",
+    "savun"
+   ],
+   "sent": false,
+   "t": "Cumhurbaşkanlığı Savunma Sanayii Başkanlığından Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:20+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "beyke",
+    "istan",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Beykent Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:20+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "istan",
+    "ogret",
+    "rumel",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Rumeli Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:21+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ogret",
+    "sirna",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Şırnak Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:21+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "asarc",
+    "beled",
+    "iptal",
+    "samsu"
+   ],
+   "sent": false,
+   "t": "Samsun İli Asarcık Belediye Başkanlığı (İptal İlanı)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:21+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bahce",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Bahçeşehir Üniversitesi Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:21+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "gorev",
+    "munzu",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Munzur Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:21+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "munzu",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Munzur Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:22+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bakir",
+    "iptal",
+    "izmir",
+    "unive"
+   ],
+   "sent": false,
+   "t": "İzmir Bakırçay Üniversitesi (İptal İlanı)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:22+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ogret",
+    "saban",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Sabancı Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:22+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilim",
+    "elema",
+    "ogret",
+    "sagli",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Sağlık Bilimleri Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:22+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilgi",
+    "istan",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "İstanbul Bilgi Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:23+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ogret",
+    "ted",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Ted Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:23+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bilim",
+    "ogret",
+    "sagli",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Sağlık Bilimleri Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:23+00:00",
+   "dec": "skip",
+   "k": "memur",
+   "o": [
+    "beled",
+    "ula",
+    "zabit"
+   ],
+   "sent": false,
+   "t": "Ula Belediye Başkanlığı Zabıta Memuru Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:24+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "karam",
+    "mehme",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Karamanoğlu Mehmetbey Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:24+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "gorev",
+    "karad",
+    "ogret",
+    "tekni",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Karadeniz Teknik Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:24+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ensti",
+    "izmir",
+    "ogret",
+    "tekno",
+    "uyesi",
+    "yukse"
+   ],
+   "sent": false,
+   "t": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:24+00:00",
+   "dec": "check",
+   "k": "uzman yardimci",
+   "o": [
+    "denet",
+    "kamu"
+   ],
+   "sent": false,
+   "t": "Kamu Denetçiliği Uzman Yardımcılığı Giriş Sınavı Duyurusu",
+   "why": "bölüm şartı uygun: “…kuku), borclar hukuku (genel hukumler) -kamu yonetimi: yonetim bilimi ve turk kamu yonetimi,…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; KPSS puan türü ve sıralama koşulunu kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:24+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "ensti",
+    "izmir",
+    "ogret",
+    "tekno",
+    "yukse"
+   ],
+   "sent": false,
+   "t": "İzmir Yüksek Teknoloji Enstitüsü Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:25+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "kocae",
+    "ogret",
+    "sagli",
+    "tekno",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Kocaeli Sağlık ve Teknoloji Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:25+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bezmi",
+    "gorev",
+    "ogret",
+    "unive",
+    "vakif"
+   ],
+   "sent": false,
+   "t": "Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:25+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bezmi",
+    "ogret",
+    "unive",
+    "uyesi",
+    "vakif"
+   ],
+   "sent": false,
+   "t": "Bezmiâlem Vakıf Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:25+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ankar",
+    "guzel",
+    "muzik",
+    "ogret",
+    "sanat",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Ankara Müzik ve Güzel Sanatlar Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:25+00:00",
+   "dec": "check",
+   "k": "memur",
+   "o": [
+    "beled",
+    "gundo"
+   ],
+   "sent": false,
+   "t": "Gündoğmuş Belediye Başkanlığı Memur Alım İlanı",
+   "why": "bölüm şartı uygun: “…ans duzeyinde egitim veren fakultelerin kamu yonetimi, siyaset bilimi ve kamu yonetimi, yerel…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; KPSS puan türü ve sıralama koşulunu kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:26+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "gorev",
+    "imam",
+    "kahra",
+    "ogret",
+    "sutcu",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:26+00:00",
+   "dec": "check",
+   "k": "personel",
+   "o": [
+    "beled",
+    "tanob"
+   ],
+   "sent": false,
+   "t": "Tanoba Belediye Başkanlığı Personel Alım İlanı",
+   "why": "kabul edilen bölümler ilan ekindeki tabloda; bölüm şartını kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:27+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "imam",
+    "kahra",
+    "ogret",
+    "sutcu",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Kahramanmaraş Sütçü İmam Üniversitesi Rektörlüğünden Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:27+00:00",
+   "dec": "skip",
+   "k": "personel",
+   "o": [
+    "beled",
+    "bozko"
+   ],
+   "sent": false,
+   "t": "Bozköy Belediye Başkanlığı Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:27+00:00",
+   "dec": "skip",
+   "k": "memur",
+   "o": [
+    "aksek",
+    "beled"
+   ],
+   "sent": false,
+   "t": "Akseki Belediye Başkanlığı Memur Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:27+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "dicle",
+    "iptal",
+    "unive"
+   ],
+   "sent": false,
+   "t": "İptal İlanı (Dicle Üniversitesi Rektörlüğü)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:27+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "elema",
+    "hasan",
+    "kalyo",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Hasan Kalyoncu Üniversitesi Rektörlüğünden Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:28+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "ankar",
+    "bilim",
+    "elema",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "AnkaraSosyal Bilimler Üniversitesi Rektörlüğü Öğretim Elemanı Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:28+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "denet",
+    "guven",
+    "kurum",
+    "sosya"
+   ],
+   "sent": false,
+   "t": "Sosyal Güvenlik Kurumu Başkanlığı Sosyal Güvenlik Denetmen Yardımcısı Sınav İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:28+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "aksar",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Aksaray Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:28+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "beled",
+    "elesk",
+    "eri",
+    "itfai"
+   ],
+   "sent": false,
+   "t": "Eleşkirt Belediye Başkanlığı İtfaiye Eri Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:28+00:00",
+   "dec": "skip",
+   "k": "mufettis yardimci",
+   "o": [
+    "beled",
+    "buyuk",
+    "isu",
+    "kocae"
+   ],
+   "sent": false,
+   "t": "Müfettiş Yardımcılığı Giriş Sınavı Duyurusu",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:29+00:00",
+   "dec": "skip",
+   "k": "personel",
+   "o": [
+    "ajans",
+    "bakan",
+    "gelis",
+    "kultu",
+    "tanit",
+    "turiz",
+    "turki"
+   ],
+   "sent": false,
+   "t": "Kültür ve Turizm Bakanlığı Türkiye Turizm Tanıtım ve Geliştirme Ajansından Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:29+00:00",
+   "dec": "skip",
+   "k": "bilisim",
+   "o": [
+    "bilis",
+    "tekni",
+    "unive",
+    "yildi"
+   ],
+   "sent": false,
+   "t": "Yıldız Teknik Üniversitesi Rektörlüğü Sözleşmeli Bilişim Personeli Alım İlanı",
+   "why": "sözleşmeli bilişim personeli: tüm kadrolar en az 3 yıl deneyim istiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:29+00:00",
+   "dec": "check",
+   "k": "memur",
+   "o": [
+    "beled",
+    "gazio",
+    "zabit"
+   ],
+   "sent": false,
+   "t": "Gaziosmanpaşa Belediye Başkanlığı Zabıta Memuru Alım İlanı",
+   "why": "bölüm şartı uygun: “…isans duzeyinde egitim veren kurumlarin kamu yonetimi, yerel yonetimler, isletme, siyaset bil…”; olası uyumsuzluk; başvurmadan önce ilanı kontrol edin: yaş sınırı karşılanmıyor"
+  },
+  {
+   "d": "2026-11-21T11:16:30+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "bogaz",
+    "gorev",
+    "ogret",
+    "unive"
+   ],
+   "sent": false,
+   "t": "Boğaziçi Üniversitesi Rektörlüğünden Öğretim Görevlisi Alım İlanı",
+   "why": "akademik kadro (ALES gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:30+00:00",
+   "dec": "skip",
+   "k": "bilisim",
+   "o": [
+    "bilis",
+    "duzen",
+    "kurum",
+    "nukle"
+   ],
+   "sent": false,
+   "t": "Nükleer Düzenleme Kurumu Sözleşmeli Bilişim Personeli Alım İlanı",
+   "why": "sözleşmeli bilişim personeli: tüm kadrolar en az 3 yıl deneyim istiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:31+00:00",
+   "dec": "skip",
+   "k": "sozlesmeli personel",
+   "o": [
+    "elazi",
+    "idare",
+    "ozel"
+   ],
+   "sent": false,
+   "t": "Elazığ İl Özel İdaresi Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:31+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "beled",
+    "dogan",
+    "iptal"
+   ],
+   "sent": false,
+   "t": "İptal İlanı (Doğanyol Belediye Başkanlığı)",
+   "why": "iptal duyurusu"
+  },
+  {
+   "d": "2026-11-21T11:16:31+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "alpar",
+    "mus",
+    "ogret",
+    "unive",
+    "uyesi"
+   ],
+   "sent": false,
+   "t": "Muş Alparslan Üniversitesi Rektörlüğü Öğretim Üyesi Alım İlanı",
+   "why": "akademik kadro (doktora gerekir)"
+  },
+  {
+   "d": "2026-11-21T11:16:31+00:00",
+   "dec": "skip",
+   "k": "memur",
+   "o": [
+    "akhis",
+    "beled",
+    "manis"
+   ],
+   "sent": false,
+   "t": "Manisa İli Akhisar Belediye Başkanlığından Memur Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:32+00:00",
+   "dec": "check",
+   "k": "sozlesmeli personel",
+   "o": [
+    "beled",
+    "dogan"
+   ],
+   "sent": false,
+   "t": "Doğanyol Belediye Başkanlığı Sözleşmeli Personel Alım İlanı",
+   "why": "bölüm şartı uygun: “…isans duzeyinde egitim veren kurumlarin kamu yonetimi, halkla iliskiler ve tanitim ve yerel y…”; yaş şartını ilandaki tarih ve ifadeye göre kontrol edin; KPSS puan türü ve sıralama koşulunu kontrol edin"
+  },
+  {
+   "d": "2026-11-21T11:16:32+00:00",
+   "dec": "skip",
+   "k": "mufettis yardimci",
+   "o": [
+    "ankar",
+    "beled",
+    "buyuk",
+    "mufet"
+   ],
+   "sent": false,
+   "t": "Ankara Büyükşehir Belediye Başkanlığı Müfettiş Yardımcısı Alım İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:33+00:00",
+   "dec": "skip",
+   "k": "",
+   "o": [
+    "mali",
+    "musav",
+    "turmo",
+    "yemin"
+   ],
+   "sent": false,
+   "t": "TÜRMOB'dan Yeminli Mali Müşavirlik Sınav Duyurusu",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
+  },
+  {
+   "d": "2026-11-21T11:16:33+00:00",
+   "dec": "skip",
+   "k": "aktuer",
+   "o": [
+    "egiti",
+    "merke",
+    "segem",
+    "sigor"
+   ],
+   "sent": false,
+   "t": "2026 Yılı Aktüerlik Sınavları İlanı",
+   "why": "bölüm şartı Kamu Yönetimi (lisans) veya İş Sağlığı ve Güvenliği (ön lisans) içermiyor"
   }
  ],
  "health": {
@@ -11629,9 +13276,9 @@
    "fails": 0
   },
   "iskur": {
-   "alerted": true,
-   "error": "SourceError: İŞKUR yanıtı beklenmeyen biçimde. HTTP=200; Başlık='Türkiye İş Kurumu - Açık İş İlanları'; Önizleme='Türkiye İş Kurumu - Açık İş İlanları × Sistemde teknik hata oluştu. Lütfen sistem görevlileri ile irtibata geçiniz. Hata No: 172056-20261121-134954-9120-288793 Tamam İŞKUR E-ŞUBE Anasayf",
-   "fails": 3
+   "alerted": false,
+   "error": "",
+   "fails": 0
   },
   "kamuilan": {
    "alerted": false,
@@ -11644,9 +13291,9 @@
    "fails": 0
   },
   "resmigazete": {
-   "alerted": false,
-   "error": "",
-   "fails": 0
+   "alerted": true,
+   "error": "ConnectTimeout: HTTPSConnectionPool(host='www.resmigazete.gov.tr', port=443): Max retries exceeded with url: /fihrist?tarih=2026-11-21 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.resmigazete.gov.tr', port=443) at 0x7dd4b3695580>, 'Connection to www.resmigazete.gov.tr timed out. (connec",
+   "fails": 1
   }
  },
  "heartbeat": "2026-11-21",
@@ -12171,6 +13818,7 @@
    "00009901748": "2026-11-16T23:49:01+00:00",
    "00009906905": "2026-11-19T22:46:34+00:00",
    "00009908955": "2026-11-19T22:46:33+00:00",
+   "duyuru:sozlesmeli-bilisim-personeli-sozlu-uygulamali-sinava-girmeye-hak-kazananlar-hakkinda-duyuru-1": "2026-11-21T11:16:02+00:00",
    "duyuru:turkiye-is-kurumu-genel-mudurlugu-sozlesmeli-bilisim-personeli-alimi-ilani-1": "2026-10-18T18:33:05+00:00"
   },
   "kamuilan": {},
@@ -14442,6 +16090,11 @@
    "d": "2026-11-19T22:46:33+00:00",
    "t": "Beden İşçisi (Genel)",
    "why": "meslek alanınızla ilgili değil"
+  },
+  "iskur:duyuru:sozlesmeli-bilisim-personeli-sozlu-uygulamali-sinava-girmeye-hak-kazananlar-hakkinda-duyuru-1": {
+   "d": "2026-11-21T11:16:02+00:00",
+   "t": "Sözleşmeli Bilişim Personeli Sözlü/Uygulamalı Sınava Girmeye Hak Kazananlar Hakkında Duyuru",
+   "why": "sözleşmeli bilişim personeli: tüm kadrolar en az 3 yıl deneyim istiyor"
   },
   "kariyerkapisi:01e546b7-c1d0-4364-b010-7eea088f49cd": {
    "d": "2026-11-02T23:12:06+00:00",
